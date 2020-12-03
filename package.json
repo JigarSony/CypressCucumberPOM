@@ -18,13 +18,12 @@
     "nonGlobalStepDefinitions": true,
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
-      "filePrefix": "",
-      "fileSuffix": ".cucumber"
+      "outputFolder": "cucumber_json"
     }
   },
   "devDependencies": {
     "cosmiconfig": "^5.2.1",
+    "cucumber-html-reporter": "^5.2.0",
     "cypress": "^6.0.0",
     "cypress-cucumber-preprocessor": "^4.0.0"
   }
