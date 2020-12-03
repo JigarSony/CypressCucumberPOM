@@ -11,8 +11,8 @@ fs.mkdirSync(dir);
 const reporter = require('cucumber-html-reporter');
 const options = {
     theme: 'bootstrap',
-    jsonDir: 'cucumber_json',
-    output: 'cucumber_json/html',
+    jsonDir: 'cucumber_json/',
+    output: 'cucumber_json/html_report.html',
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
     launchReport: true,

@@ -15,7 +15,8 @@
   "author": "",
   "license": "ISC",
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration/",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cucumber_json"

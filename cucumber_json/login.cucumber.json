@@ -23,7 +23,7 @@
             "name": "user is on SwagLab Login page",
             "result": {
               "status": "passed",
-              "duration": 666000000
+              "duration": 1089000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "user enter invalid username and valid password and click on Login button",
             "result": {
               "status": "passed",
-              "duration": 829000000
+              "duration": 891000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "user redirected to home page",
             "result": {
               "status": "failed",
-              "duration": 4014000000,
+              "duration": 4013000000,
               "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
             }
           }
@@ -64,7 +64,7 @@
             "name": "user enter valid username and invalid password and click on Login button",
             "result": {
               "status": "passed",
-              "duration": 1078000000
+              "duration": 1373000000
             }
           },
           {
@@ -74,7 +74,7 @@
             "name": "user redirected to home page",
             "result": {
               "status": "failed",
-              "duration": 4018000000,
+              "duration": 3996000000,
               "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
             }
           }
@@ -95,7 +95,7 @@
             "name": "user enter invalid username and invalid password and click on Login button",
             "result": {
               "status": "passed",
-              "duration": 794000000
+              "duration": 1238000000
             }
           },
           {
@@ -105,7 +105,7 @@
             "name": "user redirected to home page",
             "result": {
               "status": "failed",
-              "duration": 4006000000,
+              "duration": 4009000000,
               "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
             }
           }
@@ -126,7 +126,7 @@
             "name": "user enter valid username password and click on Login button",
             "result": {
               "status": "passed",
-              "duration": 1430000000
+              "duration": 6582000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "user redirected to home page",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 32000000
             }
           }
         ]
