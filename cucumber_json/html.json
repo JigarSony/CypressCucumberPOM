@@ -1,0 +1,290 @@
+[
+  {
+    "description": "    User want to login into SwagLab",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;invalid-username-and-valid-password-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "invalid Username and valid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on SwagLab Login page",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enter invalid username and valid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 829000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4014000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;valid-username-and-invalid-password-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "valid Username and invalid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user enter valid username and invalid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4018000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;invalid-username-and-invalid-password-login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "invalid Username and invalid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enter invalid username and invalid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4006000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;valid-login",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "valid Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user enter valid username password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    User want to login into SwagLab",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;invalid-username-and-valid-password-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "invalid Username and valid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on SwagLab Login page",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enter invalid username and valid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 829000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4014000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;valid-username-and-invalid-password-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "valid Username and invalid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user enter valid username and invalid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4018000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;invalid-username-and-invalid-password-login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "invalid Username and invalid Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enter invalid username and invalid password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "failed",
+              "duration": 4006000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find element: `.product_label`, but never found it.\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:56:28)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:10553:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/login.feature:9894:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;valid-login",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "valid Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user enter valid username password and click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user redirected to home page",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
