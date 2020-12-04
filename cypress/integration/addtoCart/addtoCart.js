@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import { Given, When, Then} from "cypress-cucumber-preprocessor/steps"
-import LoginPage from '../../pages/sauceLoginPage'
-const loginPage = new LoginPage()
+//import LoginPage from '../../pages/sauceLoginPage'
+//const loginPage = new LoginPage()
 
 // Given('user is on SwagLab Login page', function ()  {
 //     cy.visit('https://www.saucedemo.com/')

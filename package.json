@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "cosmiconfig": "^5.2.1",
-    "cucumber-html-reporter": "^5.2.0",
     "cypress": "^6.0.0",
-    "cypress-cucumber-preprocessor": "^4.0.0"
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
